@@ -7,7 +7,28 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SocketDelegate.h"
 
-@interface Socket : NSObject
+@interface Socket : NSObject <NSStreamDelegate>{
+    id<SocketDelegate> delegate;
+@private
+    NSMutableArray *_observers;
+}
+@property (nonatomic, strong) id<SocketDelegate> delegate;
+
+
+@property (nonatomic, retain) NSString *ip_address;
+@property (nonatomic) int port;
+@property (nonatomic, retain) NSInputStream *inputStream;
+@property (nonatomic, retain) NSOutputStream *outputStream;
+
+- (id)init:(CFStringRef)ip port:(int)socket_port;
+- (void)check;
+
+- (void)registerObserver:(id)ob;
+- (void)removeObserver:(id)ob;
+
+
+
 
 @end

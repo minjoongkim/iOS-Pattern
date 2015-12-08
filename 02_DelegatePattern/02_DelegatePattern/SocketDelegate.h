@@ -6,8 +6,10 @@
 //  Copyright © 2015년 minjoongkim. All rights reserved.
 //
 
-#ifndef SocketDelegate_h
-#define SocketDelegate_h
+@protocol SocketDelegate<NSObject>;
 
+@required
 
-#endif /* SocketDelegate_h */
+-(void) resultSocketMessage:(NSString *)msg;
+
+@end
