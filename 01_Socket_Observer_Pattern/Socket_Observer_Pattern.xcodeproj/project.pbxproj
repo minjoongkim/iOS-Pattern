@@ -13,6 +13,7 @@
 		1E551E791C1674A8004C041B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E551E771C1674A8004C041B /* Main.storyboard */; };
 		1E551E7B1C1674A8004C041B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E551E7A1C1674A8004C041B /* Assets.xcassets */; };
 		1E551E7E1C1674A8004C041B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E551E7C1C1674A8004C041B /* LaunchScreen.storyboard */; };
+		1E551E881C1676FC004C041B /* Socket.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E551E871C1676FC004C041B /* Socket.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		1E551E7A1C1674A8004C041B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E551E7D1C1674A8004C041B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E551E7F1C1674A8004C041B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E551E851C1676C5004C041B /* SocketObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketObserver.h; sourceTree = "<group>"; };
+		1E551E861C1676FC004C041B /* Socket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Socket.h; sourceTree = "<group>"; };
+		1E551E871C1676FC004C041B /* Socket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Socket.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,9 @@
 				1E551E741C1674A8004C041B /* ViewController.h */,
 				1E551E751C1674A8004C041B /* ViewController.m */,
 				1E551E771C1674A8004C041B /* Main.storyboard */,
+				1E551E861C1676FC004C041B /* Socket.h */,
+				1E551E871C1676FC004C041B /* Socket.m */,
+				1E551E851C1676C5004C041B /* SocketObserver.h */,
 				1E551E7A1C1674A8004C041B /* Assets.xcassets */,
 				1E551E7C1C1674A8004C041B /* LaunchScreen.storyboard */,
 				1E551E7F1C1674A8004C041B /* Info.plist */,
@@ -149,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E551E881C1676FC004C041B /* Socket.m in Sources */,
 				1E551E761C1674A8004C041B /* ViewController.m in Sources */,
 				1E551E731C1674A8004C041B /* AppDelegate.m in Sources */,
 				1E551E701C1674A8004C041B /* main.m in Sources */,
@@ -298,6 +306,7 @@
 				1E551E841C1674A8004C041B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

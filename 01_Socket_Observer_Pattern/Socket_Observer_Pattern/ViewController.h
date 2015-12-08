@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Socket.h"
 @interface ViewController : UIViewController
 
 
+@property (nonatomic, strong) Socket *socket;
+
+-(void)socketResult:(NSString*)result;
+-(IBAction)sendSocket:(id)sender ;
 @end
 
