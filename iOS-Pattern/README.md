@@ -1,2 +1,0 @@
-# iOS-Pattern
-iOS-Pattern
