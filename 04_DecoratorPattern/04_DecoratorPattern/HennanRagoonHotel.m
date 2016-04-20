@@ -10,4 +10,22 @@
 
 @implementation HennanRagoonHotel
 
+- (instancetype)initWithTour:(Tour *)tour{
+    self = [super init];
+    
+    if (self) {
+        _tour = tour;
+    }
+    
+    return self;
+}
+
+- (NSString *)getDescription {
+    return [NSString stringWithFormat:@"%@%@",_tour.getDescription,@", HeaanaRagoonHotel"];
+}
+
+- (double)cost {
+    return 10 + _tour.cost;
+}
+
 @end

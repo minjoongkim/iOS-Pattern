@@ -7,7 +7,9 @@
 //
 
 #import "HotelDecorator.h"
-
-@interface HennanRagoonHotel : HotelDecorator
-
+#import "Tour.h"
+@interface HennanRagoonHotel : HotelDecorator{
+    Tour *_tour;
+}
+- (instancetype)initWithTour:(Tour *)tour;
 @end

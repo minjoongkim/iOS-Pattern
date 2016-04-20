@@ -10,4 +10,23 @@
 
 @implementation Tour
 
+- (instancetype)init {
+    self = [super init];
+    
+    if (self) {
+        description = @"Unkown Tour";
+    }
+    
+    return self;
+}
+
+- (NSString *)getDescription {
+    return description;
+}
+
+- (double)cost {
+    NSAssert(NO, @"This is an abstract method so should be overridden.");
+    return 0;
+}
+
 @end

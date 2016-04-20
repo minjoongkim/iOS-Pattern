@@ -10,4 +10,17 @@
 
 @implementation AsianaAir
 
+- (instancetype)init {
+    self = [super init];
+    
+    if (self) {
+        description = @"Airplane - AsianaAir";
+    }
+    
+    return self;
+}
+- (double)cost {
+    return 101;
+}
+
 @end

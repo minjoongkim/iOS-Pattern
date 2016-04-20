@@ -13,6 +13,14 @@
 		1E2A73751CC72165000718BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A73731CC72165000718BF /* Main.storyboard */; };
 		1E2A73771CC72165000718BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A73761CC72165000718BF /* Assets.xcassets */; };
 		1E2A737A1CC72165000718BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E2A73781CC72165000718BF /* LaunchScreen.storyboard */; };
+		1E2A73831CC721AC000718BF /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A73821CC721AC000718BF /* Tour.m */; };
+		1E2A73861CC72209000718BF /* KoreanAir.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A73851CC72209000718BF /* KoreanAir.m */; };
+		1E2A73891CC7225B000718BF /* AsianaAir.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A73881CC7225B000718BF /* AsianaAir.m */; };
+		1E2A738C1CC72281000718BF /* JinAir.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A738B1CC72281000718BF /* JinAir.m */; };
+		1E2A738F1CC72508000718BF /* HotelDecorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A738E1CC72508000718BF /* HotelDecorator.m */; };
+		1E2A73921CC72530000718BF /* HennanRagoonHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A73911CC72530000718BF /* HennanRagoonHotel.m */; };
+		1E2A73951CC7273D000718BF /* ShangrilaHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A73941CC7273D000718BF /* ShangrilaHotel.m */; };
+		1E2A73981CC727AE000718BF /* ThelindHotel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E2A73971CC727AE000718BF /* ThelindHotel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +34,22 @@
 		1E2A73761CC72165000718BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1E2A73791CC72165000718BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1E2A737B1CC72165000718BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E2A73811CC721AC000718BF /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tour.h; sourceTree = "<group>"; };
+		1E2A73821CC721AC000718BF /* Tour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tour.m; sourceTree = "<group>"; };
+		1E2A73841CC72209000718BF /* KoreanAir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KoreanAir.h; sourceTree = "<group>"; };
+		1E2A73851CC72209000718BF /* KoreanAir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KoreanAir.m; sourceTree = "<group>"; };
+		1E2A73871CC7225B000718BF /* AsianaAir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsianaAir.h; sourceTree = "<group>"; };
+		1E2A73881CC7225B000718BF /* AsianaAir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsianaAir.m; sourceTree = "<group>"; };
+		1E2A738A1CC72281000718BF /* JinAir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JinAir.h; sourceTree = "<group>"; };
+		1E2A738B1CC72281000718BF /* JinAir.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JinAir.m; sourceTree = "<group>"; };
+		1E2A738D1CC72508000718BF /* HotelDecorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotelDecorator.h; sourceTree = "<group>"; };
+		1E2A738E1CC72508000718BF /* HotelDecorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotelDecorator.m; sourceTree = "<group>"; };
+		1E2A73901CC72530000718BF /* HennanRagoonHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HennanRagoonHotel.h; sourceTree = "<group>"; };
+		1E2A73911CC72530000718BF /* HennanRagoonHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HennanRagoonHotel.m; sourceTree = "<group>"; };
+		1E2A73931CC7273D000718BF /* ShangrilaHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShangrilaHotel.h; sourceTree = "<group>"; };
+		1E2A73941CC7273D000718BF /* ShangrilaHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShangrilaHotel.m; sourceTree = "<group>"; };
+		1E2A73961CC727AE000718BF /* ThelindHotel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThelindHotel.h; sourceTree = "<group>"; };
+		1E2A73971CC727AE000718BF /* ThelindHotel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThelindHotel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +91,22 @@
 				1E2A73781CC72165000718BF /* LaunchScreen.storyboard */,
 				1E2A737B1CC72165000718BF /* Info.plist */,
 				1E2A736A1CC72165000718BF /* Supporting Files */,
+				1E2A73811CC721AC000718BF /* Tour.h */,
+				1E2A73821CC721AC000718BF /* Tour.m */,
+				1E2A73841CC72209000718BF /* KoreanAir.h */,
+				1E2A73851CC72209000718BF /* KoreanAir.m */,
+				1E2A73871CC7225B000718BF /* AsianaAir.h */,
+				1E2A73881CC7225B000718BF /* AsianaAir.m */,
+				1E2A738A1CC72281000718BF /* JinAir.h */,
+				1E2A738B1CC72281000718BF /* JinAir.m */,
+				1E2A738D1CC72508000718BF /* HotelDecorator.h */,
+				1E2A738E1CC72508000718BF /* HotelDecorator.m */,
+				1E2A73901CC72530000718BF /* HennanRagoonHotel.h */,
+				1E2A73911CC72530000718BF /* HennanRagoonHotel.m */,
+				1E2A73931CC7273D000718BF /* ShangrilaHotel.h */,
+				1E2A73941CC7273D000718BF /* ShangrilaHotel.m */,
+				1E2A73961CC727AE000718BF /* ThelindHotel.h */,
+				1E2A73971CC727AE000718BF /* ThelindHotel.m */,
 			);
 			path = 04_DecoratorPattern;
 			sourceTree = "<group>";
@@ -149,9 +189,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2A73981CC727AE000718BF /* ThelindHotel.m in Sources */,
 				1E2A73721CC72165000718BF /* ViewController.m in Sources */,
+				1E2A73891CC7225B000718BF /* AsianaAir.m in Sources */,
+				1E2A738F1CC72508000718BF /* HotelDecorator.m in Sources */,
 				1E2A736F1CC72165000718BF /* AppDelegate.m in Sources */,
+				1E2A73921CC72530000718BF /* HennanRagoonHotel.m in Sources */,
 				1E2A736C1CC72165000718BF /* main.m in Sources */,
+				1E2A73951CC7273D000718BF /* ShangrilaHotel.m in Sources */,
+				1E2A738C1CC72281000718BF /* JinAir.m in Sources */,
+				1E2A73831CC721AC000718BF /* Tour.m in Sources */,
+				1E2A73861CC72209000718BF /* KoreanAir.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

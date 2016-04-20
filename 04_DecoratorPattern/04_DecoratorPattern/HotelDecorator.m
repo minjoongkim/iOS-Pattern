@@ -10,4 +10,9 @@
 
 @implementation HotelDecorator
 
+- (NSString *)getDescription {
+    NSAssert(NO, @"This is an abstract method so should be overridden.");
+    return nil;
+}
+
 @end

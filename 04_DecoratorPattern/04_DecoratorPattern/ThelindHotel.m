@@ -10,4 +10,24 @@
 
 @implementation ThelindHotel
 
+
+- (instancetype)initWithTour:(Tour *)tour{
+    self = [super init];
+    
+    if (self) {
+        _tour = tour;
+    }
+    
+    return self;
+}
+
+- (NSString *)getDescription {
+    return [NSString stringWithFormat:@"%@%@",_tour.getDescription,@", TheLindHotel"];
+}
+
+- (double)cost {
+    return 30 + _tour.cost;
+}
+
+
 @end

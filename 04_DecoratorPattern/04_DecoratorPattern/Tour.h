@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Tour : NSObject
+@interface Tour : NSObject {
+    NSString *description;
+}
+
+-(NSString*)getDescription;
+-(double)cost;
 
 @end

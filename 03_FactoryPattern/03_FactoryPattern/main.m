@@ -8,9 +8,28 @@
 
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
-
+/*
 int main(int argc, char * argv[]) {
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
+}
+*/
+int main(int argc, char * argv[]) {
+    @autoreleasepool {
+        double (^multiplyTwoValues)(double, double);
+        
+        multiplyTwoValues = ^ (double firstValue, double secondValue) {
+            return firstValue * secondValue;
+        };
+        
+        double result = multiplyTwoValues(2,4);
+        
+        NSLog(@"The result is %f", result);
+
+        
+    }
+    
+    
+    return 0;
 }

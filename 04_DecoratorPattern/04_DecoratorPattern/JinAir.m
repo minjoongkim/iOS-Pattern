@@ -10,4 +10,19 @@
 
 @implementation JinAir
 
+
+- (instancetype)init {
+    self = [super init];
+    
+    if (self) {
+        description = @"Airplane - JinAir";
+    }
+    
+    return self;
+}
+
+- (double)cost {
+    return 80;
+}
+
 @end

@@ -10,4 +10,22 @@
 
 @implementation ShangrilaHotel
 
+- (instancetype)initWithTour:(Tour *)tour{
+    self = [super init];
+    
+    if (self) {
+        _tour = tour;
+    }
+    
+    return self;
+}
+
+- (NSString *)getDescription {
+    return [NSString stringWithFormat:@"%@%@",_tour.getDescription,@", ShangrilaHotel"];
+}
+
+- (double)cost {
+    return 50 + _tour.cost;
+}
+
 @end
